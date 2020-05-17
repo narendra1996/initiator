@@ -1,0 +1,17 @@
+<div class="footer">
+  <div class="section">
+    <div class="left">
+    </div>
+    <div class="right">
+      <div class="button-group d-flex">
+        <div class="generate">
+          <button (click)="generateProject()" class="primary">Generate-Project</button>
+        </div>
+        <div>
+          <button (click)="exploreProject()">Explore-Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<project-explorer *ngIf="showProjectExplorer"></project-explorer>

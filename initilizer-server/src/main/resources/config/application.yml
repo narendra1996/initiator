@@ -1,0 +1,19 @@
+prd:
+  initializr:
+    dependencies:
+      - name: PRD Internal Dependencies
+        content:
+          - name: audit-logging
+            id: prd-audit-logging
+            groupId: your.domain
+            artifactId: prd-audit-log
+            version: 1.0.0
+            starter: false
+            description: Description for audit logging
+          - name: caam utility
+            id: prd-caam-utility
+            groupId: your.domain
+            artifactId: prd-caam-utility
+            version: 1.0.0
+            starter: false
+            description: Description for camm Utility

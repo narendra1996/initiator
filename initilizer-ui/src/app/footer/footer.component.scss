@@ -1,0 +1,43 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        .left {
+            flex: 0 0 25%;
+            max-width: 25%;
+            width: 280px;
+            text-align: right;
+            padding: 0px 32px 8px 0px;
+        }
+        .right {
+            flex: 0 0 75%;
+            max-width: 75%;
+            padding: 0px 0px 8px 32px;
+            padding-bottom: 0px;
+            background: white;
+        }
+    }
+}
+
+.button-group {
+    padding: 18px 0px;
+    border-top: 1px solid #ccc;
+    max-width: 80%;
+    .generate {
+        padding-right: 30px;
+    }
+    button {
+        padding: 7px 30px;
+        border: none;
+        border-radius: 4px;
+        outline: 1px dotted transparent;
+    }
+    .primary {
+        background-color: #6db33f;
+        color: white;
+    }
+}
+
